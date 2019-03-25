@@ -5,6 +5,7 @@ import { Route } from 'react-router-dom';
 import Home from './components/Home';
 // --
 import './App.css';
+import Navigation from './components/Navigation';
 // --
 
 class App extends Component {
@@ -15,7 +16,8 @@ class App extends Component {
   render() {
     return (
       <>
-        <div>
+        <div className='App'>
+          <Navigation />
           <Route path='/' component={Home} />
         </div>
       </>

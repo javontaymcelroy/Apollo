@@ -1,0 +1,139 @@
+.hero-section {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 80px auto;
+  margin-bottom: 0;
+  width: 76.4%;
+  height: 772px;
+  text-align: center;
+}
+
+.dots {
+  position: absolute;
+  z-index: 201;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.hero-published {
+  position: absolute;
+  left: 2.5%;
+  top: 46%;
+  z-index: 201;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.hero-info {
+  position: absolute;
+  z-index: 201;
+  left: 0;
+  right: 0;
+  margin: 15.6% auto;
+}
+
+.hero-author {
+  color: #ffd708;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 5%;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.hero-title {
+  margin-left: 5%;
+  margin-top: 0;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 4rem;
+  width: 85%;
+  line-height: 5rem;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.hero-desc {
+  position: absolute;
+  z-index: 201;
+  top: 60%;
+  right: 5%;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: left;
+  width: 50%;
+}
+
+.hero-btn {
+  position: absolute;
+  z-index: 201;
+  top: 82%;
+  right: 14%;
+  width: 300px;
+  height: 70px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #ffd708;
+  border: 2px solid rgb(255, 238, 0);
+}
+
+.hero-image {
+  position: absolute;
+  z-index: 200;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 772px;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.hero-background {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  right: 0;
+  margin: 80px auto;
+  width: 50%;
+  height: 772px;
+  background: #0c0c0c;
+}
+
+.center-line {
+  z-index: 201;
+  position: absolute;
+  left: 0;
+  top: 52%;
+  width: 100%;
+  height: 1px;
+  background: #ffd708;
+}
+
+.left-line {
+  position: absolute;
+  position: fixed;
+  left: 5%;
+  top: 0;
+  width: 2px;
+  height: 100vh;
+  background: rgb(63, 63, 63);
+}
+
+.right-line {
+  position: absolute;
+  position: fixed;
+  right: 5%;
+  top: 0;
+  width: 2px;
+  height: 100vh;
+  background: rgb(63, 63, 63);
+}
