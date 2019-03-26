@@ -17,13 +17,30 @@
   margin: 0 auto;
 }
 
-.hero-published {
+.hero-source {
   position: absolute;
-  left: 2.5%;
+  left: 1.5%;
   top: 46%;
   z-index: 201;
   color: white;
-  font-size: 1.4rem;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+mark {
+  background: none;
+  color: #ffd708;
+}
+
+.hero-published {
+  position: absolute;
+  right: 2.8%;
+  top: 46%;
+  z-index: 201;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 2px;
   font-weight: 600;
 }
 
@@ -32,7 +49,7 @@
   z-index: 201;
   left: 0;
   right: 0;
-  margin: 15.6% auto;
+  margin: 16.5% auto;
 }
 
 .hero-author {
@@ -61,19 +78,19 @@
   position: absolute;
   z-index: 201;
   top: 60%;
-  right: 5%;
+  right: 8%;
   color: white;
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
-  text-align: left;
+  text-align: justify;
   width: 50%;
 }
 
 .hero-btn {
   position: absolute;
-  z-index: 201;
+  z-index: 250;
   top: 82%;
   right: 14%;
   width: 300px;
@@ -83,6 +100,12 @@
   text-transform: uppercase;
   background-color: #ffd708;
   border: 2px solid rgb(255, 238, 0);
+  transition: 0.3s ease-in-out;
+}
+
+.hero-btn:hover {
+  transition: 0.3s ease-in-out;
+  filter: brightness(105%);
 }
 
 .hero-image {
@@ -108,6 +131,113 @@
   background: #0c0c0c;
 }
 
+.sub-hero-section {
+  position: absolute;
+  z-index: 201;
+  left: 0;
+  right: 0;
+  margin: 50% auto;
+  width: 76%;
+  display: flex;
+}
+
+.sub-hero-image {
+  object-fit: cover;
+  object-position: left;
+  width: 600px;
+  height: 725px;
+}
+
+.subherobg {
+  position: absolute;
+  z-index: 100;
+  top: 108%;
+  left: 10%;
+  width: 600px;
+  height: 725px;
+}
+
+.sub-hero-content {
+  margin-top: 72px;
+  margin-left: 60px;
+}
+
+.sub-hero-header {
+  display: flex;
+}
+
+.sub-hero-publish {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 200px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+
+.sub-publish {
+  color: #ffd708;
+}
+
+.sub-hero-author {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+
+.sub-author {
+  color: #ffd708;
+}
+
+.sub-hero-title {
+  color: white;
+  text-transform: uppercase;
+  font-size: 4rem;
+  letter-spacing: 8px;
+  margin-top: 65px;
+  margin-bottom: 20px;
+}
+
+.sub-hero-desc {
+  margin-top: 0;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 2rem;
+  font-weight: 500;
+  width: 85%;
+}
+
+.sub-hero-btn {
+  width: 300px;
+  height: 70px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #ffd708;
+  border: 2px solid rgb(255, 238, 0);
+  transition: 0.3s ease-in-out;
+}
+
+.sub-hero-btn:hover {
+  transition: 0.3s ease-in-out;
+  filter: brightness(105%);
+}
+
+.sub-div {
+  position: absolute;
+  left: 0;
+  top: 108%;
+  width: 100%;
+  height: 80px;
+  border-top: 1px solid rgb(63, 63, 63);
+  border-bottom: 1px solid rgb(63, 63, 63);
+}
+
 .center-line {
   z-index: 201;
   position: absolute;
@@ -123,7 +253,7 @@
   position: fixed;
   left: 5%;
   top: 0;
-  width: 2px;
+  width: 1px;
   height: 100vh;
   background: rgb(63, 63, 63);
 }
@@ -133,7 +263,7 @@
   position: fixed;
   right: 5%;
   top: 0;
-  width: 2px;
+  width: 1px;
   height: 100vh;
   background: rgb(63, 63, 63);
 }
